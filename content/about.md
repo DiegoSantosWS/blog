@@ -1,19 +1,11 @@
 +++
-title = "About"
-date = "2014-04-09"
+title = "Sobre"
+date = "2021-06-01"
 aliases = ["about-us","about-hugo","contact"]
 [ author ]
-  name = "Hugo Authors"
+  name = "Diego Santos"
 +++
 
-Hugo is the **world’s fastest framework for building websites**. It is written in Go.
+Sou programador backend na [Fliper](https://www.fliper.app).
 
-It makes use of a variety of open source projects including:
-
-* https://github.com/russross/blackfriday
-* https://github.com/alecthomas/chroma
-* https://github.com/muesli/smartcrop
-* https://github.com/spf13/cobra
-* https://github.com/spf13/viper
-
-Learn more and contribute on [GitHub](https://github.com/gohugoio).
+Meu maior objetivo é aprender. A busca por conhecimento me facina, tornando isso algo normal em meu dia a dia.
