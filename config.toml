@@ -55,7 +55,7 @@ disableHugoGeneratorInject = false
 
   # Metadata mostly used in document's head
   # 
-  description = "Blog sobre técnologia"
+  description = "Blog sobre tecnologia"
   keywords = ""
   images = [""]
 
@@ -165,12 +165,12 @@ disableHugoGeneratorInject = false
 
 [languages]
   [languages.en]
-    subtitle  = "Técnologia"
+    subtitle  = "Tecnologia"
     weight    = 1
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener"></a>'
 
   [languages.fr]
-    subtitle  = "Técnologia"
+    subtitle  = "Tecnologia"
     weight    = 2
     copyright = '<a href="https://creativecommons.org/licenses/by-nc/4.0/" target="_blank" rel="noopener"></a>'
 

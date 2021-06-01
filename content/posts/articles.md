@@ -19,4 +19,4 @@ Vamos mostrar de uma forma prática e simples como fazer um deploy de sua aplica
 
 No ano de 2018 mudei minha forma de ver as coisas, então escrevi um artigo para falar um pouco do que fiz e aprendi.
 
-- [Retrospectiva 2028](https://medium.com/@diegosantos_98014/retrospectiva-dev-2018-bfebccdbb58)
+- [Retrospectiva 2018](https://medium.com/@diegosantos_98014/retrospectiva-dev-2018-bfebccdbb58)
