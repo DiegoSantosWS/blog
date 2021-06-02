@@ -16,8 +16,10 @@ jobs:
           
           script: | 
             pwd
-            mkdir -p blog
-            cp -r . /blog
+            mkdir -p site/
+            cd site/ 
+            git clone git@github.com:DiegoSantosWS/blog.git
+            
             cd blog/
             docker build . -t blog:latest
             docker run -d -p 80:8080 blog
