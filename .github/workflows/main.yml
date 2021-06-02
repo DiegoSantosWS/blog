@@ -28,7 +28,7 @@ jobs:
           version: latest
           file: dockerfile
           push: true
-          tags: ghcr.io/v2/${{ github.repository }}:latest
+          tags: ghcr.io/${{ github.repository }}:latest
 
   deploy:
     name: Deploy to Digital Ocean Droplet
