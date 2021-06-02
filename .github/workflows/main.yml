@@ -22,7 +22,7 @@ jobs:
 
       - id: read-docker-image-identifiers
         name: Read Docker Image Identifiers
-        run: echo "image_repository::$(echo ${{ github.repository }} | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
+        run: echo "name=image_repository::$(echo ${{ github.repository }} | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
 
       - name: Push to Github Container Registry
         uses: docker/build-push-action@v2
