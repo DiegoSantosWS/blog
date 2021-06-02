@@ -30,7 +30,7 @@ jobs:
           context: .
           file: dockerfile
           push: true
-          tags: 'ghcr.io/steps.read-docker-image-identifiers.outputs.IMAGE_REPOSITORY:$GITHUB_SHA'
+          tags: ghcr.io/diegosantosws/blog:latest
 
   deploy:
     name: Deploy to Digital Ocean Droplet
@@ -56,7 +56,7 @@ jobs:
             docker login https://ghcr.io -u ${{ github.repository_owner }} -p ${{ secrets.CR_PAT }}
 
             # Pull the Docker Image 
-            docker pull ghcr.io/${{ github.repository }}:latest
+            docker pull ghcr.io/diegosantosws/blog:latest
 
             # Run a new container from a new image
             docker run -d \
