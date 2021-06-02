@@ -4,7 +4,7 @@ on:
     branches: [master]
 
 jobs:
-  push_to_registry:
+  push:
     name: Push to GHCR -> DigitlOcean
     runs-on: ubuntu-latest
     steps:
@@ -48,7 +48,7 @@ jobs:
 
             # Remove old container
             docker rm ${{ github.repository_owner }}
-            
+
             # Login to Github Container Registry
             docker login https://ghcr.io -u ${{ github.repository_owner }} -p ${{ secrets.CR_PAT }}
 
