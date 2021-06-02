@@ -16,8 +16,9 @@ jobs:
           context: ./
           file: ./Dockerfile
           script: | 
-            docker stop $(docker ps -a -q)
-            docker rm $(docker ps -a -q)
+            pwd
+            docker stop ${{ github.repository_owner }}
+            docker rm ${{ github.repository_owner }}
 
             docker build . -t blog:latest
             docker run -d -p 80:8080 blog
