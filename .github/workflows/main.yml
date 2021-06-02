@@ -22,7 +22,7 @@ jobs:
 
       - id: read-docker-image-identifiers
         name: Read Docker Image Identifiers
-        run: echo "name=image_repository::$(echo ${{ github.repository }} | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
+        run: echo "image_repository=$(echo ${{ github.repository }} | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
 
       - name: Push to Github Container Registry
         uses: docker/build-push-action@v2
@@ -30,7 +30,7 @@ jobs:
           context: .
           file: dockerfile
           push: true
-          tags: ghcr.io/${{ github.image_repository }}:latest
+          tags: ghcr.io/${{ env.image_repository }}:latest
 
   deploy:
     name: Deploy to Digital Ocean Droplet
