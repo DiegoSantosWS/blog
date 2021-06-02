@@ -26,7 +26,7 @@ jobs:
           context: .
           file: dockerfile
           push: true
-          tags: 'ghcr.io/$(pwd):latest'
+          tags: ghcr.io/${{pwd}}:latest
 
   deploy:
     name: Deploy to Digital Ocean Droplet
