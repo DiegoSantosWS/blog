@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+  xmlns:xhtml="http://www.w3.org/1999/xhtml">
+  
+  <url>
+    <loc>https://diegosantosws.com.br/posts/2021/06/artigos/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://diegosantosws.com.br/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://diegosantosws.com.br/fr/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://diegosantosws.com.br/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://diegosantosws.com.br/tags/docker/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://diegosantosws.com.br/tags/go/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://diegosantosws.com.br/tags/golang/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://diegosantosws.com.br/posts/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://diegosantosws.com.br/about/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://diegosantosws.com.br/tags/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://diegosantosws.com.br/fr/tags/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://diegosantosws.com.br/tags/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://diegosantosws.com.br/tags/terraform/</loc>
+    <lastmod>2021-06-01T00:00:00+00:00</lastmod>
+  </url>
+  
+  <url>
+    <loc>https://diegosantosws.com.br/categories/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://diegosantosws.com.br/fr/categories/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://diegosantosws.com.br/categories/"
+                />
+  </url>
+  
+  <url>
+    <loc>https://diegosantosws.com.br/series/</loc>
+    <xhtml:link
+                rel="alternate"
+                hreflang="fr"
+                href="https://diegosantosws.com.br/fr/series/"
+                />
+    <xhtml:link
+                rel="alternate"
+                hreflang="en"
+                href="https://diegosantosws.com.br/series/"
+                />
+  </url>
+  
+</urlset>
