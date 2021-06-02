@@ -9,7 +9,7 @@ RUN tar -zxvf hugo.tar.gz
 RUN /hugo version
 
 # We add git to the build stage, because Hugo needs it with --enableGitInfo
-RUN apk add --no-cache git
+RUN apk update && apk add --no-cache curl gcc git libc-dev
 
 # The source files are copied to /blog
 COPY . /blog
