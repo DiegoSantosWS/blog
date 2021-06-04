@@ -1,4 +1,4 @@
-baseURL = "https://www.diegosantosws.com.br"
+baseURL = "https://diegosantosws.com.br"
 title   = "Blog do Diego"
 languageCode = "pt-br"
 theme = "hello-friend-ng"
