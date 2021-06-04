@@ -68,6 +68,6 @@ jobs:
             docker pull ghcr.io/${{ env.image_repository }}:latest 
 
             # Run a new container from a new image
-            docker run -d --restart always -p 8000:8080 --name $(echo ${{ env.image_repository }})
+            docker run -d --restart always -p 8000:8080 --name ghcr.io/${{ env.image_repository }}:latest
 
             echo 'Deployment successful to digital ocean'
