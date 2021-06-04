@@ -61,13 +61,9 @@ jobs:
             docker login https://ghcr.io -u ${{ github.repository_owner }} -p ${{ secrets.CR_PAT }}
 
             # Pull the Docker Image 
-            docker pull ghcr.io/diegosantosws1/blog:latest
+            docker pull --password-stdin ghcr.io/diegosantosws1/blog:latest 
 
             # Run a new container from a new image
-            docker run -d \
-            --restart always \
-            --env-file .env \
-            -p 8000:8080 \
-            --name $(echo $${{ github.repository }})
+            docker run -d --restart always -p 8000:8080 --name $(echo $${{ github.repository }})
 
             echo 'Deployment successful to digital ocean'
