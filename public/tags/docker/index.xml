@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>docker on Blog do Diego</title>
+    <link>http://localhost:1313/tags/docker/</link>
+    <description>Recent content in docker on Blog do Diego</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>pt-br</language>
+    <copyright>&lt;a href=&#34;https://creativecommons.org/licenses/by-nc/4.0/&#34; target=&#34;_blank&#34; rel=&#34;noopener&#34;&gt;&lt;/a&gt;</copyright>
+    <lastBuildDate>Tue, 01 Jun 2021 00:00:00 +0000</lastBuildDate>
+    
+	<atom:link href="http://localhost:1313/tags/docker/index.xml" rel="self" type="application/rss+xml" />
+    
+    
+    <item>
+      <title>Artigos</title>
+      <link>http://localhost:1313/posts/2021/06/artigos/</link>
+      <pubDate>Tue, 01 Jun 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/posts/2021/06/artigos/</guid>
+      <description>Neste artigo falo um pouco sobre o meu primeiro programa usando a linguagem golang
+ Meu primeiro programa em go  Vamos mostrar de uma forma prática e simples como fazer um deploy de sua aplicação go no huroku
+ Deploy Heroku  No ano de 2018 mudei minha forma de ver as coisas, então escrevi um artigo para falar um pouco do que fiz e aprendi.
+ Retrospectiva 2018  </description>
+    </item>
+    
+  </channel>
+</rss>
