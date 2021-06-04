@@ -43,6 +43,10 @@ jobs:
     needs: push
 
     steps:
+      - id: docker-image-completed
+        name: Read Docker Image Identifiers
+        run: echo "image_repository=$(echo ${{ github.repository }} | tr '[:upper:]' '[:lower:]')" >> $GITHUB_ENV
+
       - name: Deploy blog form server
         uses: appleboy/ssh-action@master
         with:
@@ -61,9 +65,9 @@ jobs:
             docker login https://ghcr.io -u ${{ github.repository_owner }} -p ${{ secrets.CR_PAT }}
 
             # Pull the Docker Image 
-            docker pull ghcr.io/diegosantosws1/blog:latest 
+            docker pull ghcr.io/${{ env.image_repository }}:latest 
 
             # Run a new container from a new image
-            docker run -d --restart always -p 8000:8080 --name $(echo $${{ github.repository }})
+            docker run -d --restart always -p 8000:8080 --name $(echo ${{ env.image_repository }})
 
             echo 'Deployment successful to digital ocean'
