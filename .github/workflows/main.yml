@@ -68,6 +68,6 @@ jobs:
             docker pull ghcr.io/${{ env.image_repository }}:latest 
 
             # Run a new container from a new image
-            docker run -d -p 8000:8080 ghcr.io/${{ env.image_repository }}
+            docker run -d -p 80:80 ghcr.io/${{ env.image_repository }}
 
             echo 'Deployment successful to digital ocean'
