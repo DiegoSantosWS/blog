@@ -104,9 +104,9 @@ disableHugoGeneratorInject = false
   # If you want, you can easily override the default footer with your own content. 
   #
   [params.footer]
-    trademark = true
-    rss = true
-    copyright = true
+    trademark = false
+    rss = false
+    copyright = false
     author = true
 
     topText = []
@@ -179,7 +179,9 @@ disableHugoGeneratorInject = false
     identifier = "about"
     name       = "Sobre"
     url        = "about/"
+  
   [[menu.main]]
     identifier = "posts"
     name       = "Artigos"
     url        = "posts/"
+
